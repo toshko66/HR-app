@@ -1,7 +1,7 @@
 
 
 
-# Setting up PostgreSQL Database and relevent table Table
+# Setting up PostgreSQL Database and relevent Table
 
 ### 1. Using pgAdmin4
 1. Open pgAdmin4
