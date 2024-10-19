@@ -4,17 +4,18 @@
 # Setting up PostgreSQL Database and relevent table Table
 
 ### 1. Using pgAdmin4
-Step 1: Open pgAdmin4
-Step 2: Create a New Database
-In the left panel, right-click on Servers and then PostgreSQL 14 (or whichever version you have installed).
-Expand the server and right-click on Databases.
-Select Create -> Database.
-Give your database a name. DB_NAME: web
-Step 3: Create a New Table
-In the dialog, name your table (e.g., users).
-Step 4: Running SQL Queries
+1. Open pgAdmin4
+2.  Create a New Database
+3.  In the left panel, right-click on Servers and then PostgreSQL 14 (or whichever version you have installed).
+4.  Expand the server and right-click on Databases.
+5.  Select Create -> Database.
+6.  Give your database a name. DB_NAME: web
+7.  Step 3: Create a New Table
+8.  In the dialog, name your table (e.g., users).
+9.  Step 4: Running SQL Queries
 To manually create a table via an SQL query, click on the Query Tool (icon is a lightning bolt or in the Tools dropdown).
-Paste the following SQL query:
+10. Paste the following SQL query:
+```json
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -26,9 +27,10 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
 );
-Click Execute (F5) to run the query.
+````
+11. Click Execute (F5) to run the query.
 
-Create users of type Employee and Company to test thge functionality.
+12. Create users of type Employee and Company to test thge functionality.
 
 
 
