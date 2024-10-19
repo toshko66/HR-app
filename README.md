@@ -15,7 +15,7 @@
 9.  Step 4: Running SQL Queries
 To manually create a table via an SQL query, click on the Query Tool (icon is a lightning bolt or in the Tools dropdown).
 10. Paste the following SQL query:
-```json
+```sql
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
 );
-````
+```
 11. Click Execute (F5) to run the query.
 
 12. Create users of type Employee and Company to test thge functionality.
