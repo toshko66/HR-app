@@ -264,7 +264,7 @@ React Router: Used for navigating between different pages in the application.
 TailwindCSS: Used for styling with utility classes
 
 ## Project Structure
-bash
+```bash
 /src
   /assets           # Images
   /components       # Reusable larger components like forms, etc.
@@ -278,5 +278,5 @@ bash
   App.jsx           # Main app component containing routes
   main.js           # App entry point
   store.js          #Redux toolkit global state store
-  
+  ```
 
