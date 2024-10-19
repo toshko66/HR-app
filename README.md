@@ -93,7 +93,6 @@ Failure:
 **Description:** Registers a new company.  
 **Request Body:**
 ```json
-Копиране на код
 {
   "first_name": "Jane",
   "last_name": "Smith",
@@ -104,7 +103,6 @@ Failure:
 Response:
 Success: 201 Created
 ```json
-Копиране на код
 {
   "message": "Company registered successfully",
   "user": {
@@ -127,7 +125,6 @@ Failure:
 **Description:** Logs in an employee and returns tokens.
 **Request Body:**
 ````json
-Копиране на код
 {
   "email": "john@example.com",
   "password": "password123"
@@ -136,7 +133,6 @@ Failure:
 **Response:**
 **Success:** 200 OK
 ```json
-Копиране на код
 {
   "message": "Login successful",
   "payload": {
@@ -156,7 +152,6 @@ Failure:
 **Description:** Logs in a company and returns tokens.
 **Request Body:**
 ```json
-Копиране на код
 {
   "email": "jane@example.com",
   "password": "password123"
@@ -165,7 +160,6 @@ Failure:
 **Response:***
 Success: 200 OK
 ```json
-Копиране на код
 {
   "message": "Login successful",
   "payload": {
@@ -194,7 +188,6 @@ Failure:
 **Response:**
 Success: 200 OK
 ```json
-Копиране на код
 {
   "message": "Token refreshed"
 }
@@ -210,7 +203,6 @@ Failure:
 Respons:
 Success: 200 OK
 ```json
-Копиране на код
 {
   "message": "Logout successful"
 }
@@ -273,7 +265,6 @@ TailwindCSS: Used for styling with utility classes
 
 ## Project Structure
 bash
-Копиране на код
 /src
   /assets           # Images
   /components       # Reusable larger components like forms, etc.
